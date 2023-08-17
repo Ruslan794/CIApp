@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CI App</string>
+    <string name="sampleText">Sample Text</string>
+    <string name="enterTitle">Enter Title</string>
+    <string name="enterDescription">Enter Description</string>
+    <string name="enterAuthor">Enter Author</string>
+    <string name="enterPlace">Enter Place</string>
+    <string name="perspective">Perspective:</string>
+    <string name="firstPerson">First Person</string>
+    <string name="thirdPerson">Third Person</string>
+    <string name="save">Save</string>
+    <string name="cancel">Clear</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/story_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        tools:text="KJHFSHSDFHhdkfshdkfhskd" />
+
+    <TextView
+        android:id="@+id/story_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="5"
+        android:paddingBottom="10dp"
+        android:textSize="16sp"
+        tools:text="Fdkfjdlkajldsflsadflkasdlfkjaslkdfjaskldksjdhfkljasdhfsadasdfasdfsadfasdfasdfasdfkljashdklfsakdhfksahdfkljashdkfjhaskjldfssdfkkasjdhfjkashdfklhaslkdhfkjldsdfsadfkjlasdklfhkajsldhfkljashdfkljhasdkjfhaksdhfkjlashdflkhasldfhsaljdkfh" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp">
+
+        <Button
+            android:id="@+id/show_details_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="3"
+            android:text="More" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+
+        <ImageView
+            android:id="@+id/is_favorite"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:src="@drawable/baseline_favorite_border"
+            style="?android:borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
